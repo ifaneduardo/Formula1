@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Genos:wght@400;700&display=swap');
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.container{
+    margin:20px 10px 10px 10px;
+    border-top: 2px solid #FF0000;
+    border-right: 2px solid #FF0000;
+    border-radius: 0 30px 0 0;
+    width: 396px;
+    height: 395px;
+}
+.round{
+    margin-top: 8px;
+    position: absolute;
+    top: 0;
+    background-color: #000000;
+    font-size:15px;
+    width: 70px;
+    color:#FF0000;
+    font-family:'Cairo', sans-serif;
+}
+.dateAndFlag{
+    font-family: 'Genos', sans-serif;
+    margin: 10px 10px 0 0;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.date div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 6px;
+    width: 65px;
+    height: 21px;
+}
+.flag{
+    margin-right: 30px;
+}
