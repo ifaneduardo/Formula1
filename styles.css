@@ -11,7 +11,8 @@ body{
     border-right: 2px solid #FF0000;
     border-radius: 0 30px 0 0;
     width: 396px;
-    height: 395px;
+    height: 365px;
+    margin-bottom: 40px;
 }
 .round{
     margin-top: 8px;
@@ -21,10 +22,10 @@ body{
     font-size:15px;
     width: 70px;
     color:#FF0000;
-    font-family:'Cairo', sans-serif;
+    font-family:'Cairo';
 }
 .dateAndFlag{
-    font-family: 'Genos', sans-serif;
+    font-family: 'Genos';
     margin: 10px 10px 0 0;
     padding-bottom: 20px;
     font-weight: 700;
@@ -43,9 +44,76 @@ body{
     background-color: #ffffff;
     color: #000000;
     border-radius: 6px;
+    font-size: 25px;
     width: 65px;
     height: 21px;
 }
 .flag{
     margin-right: 30px;
+    border-radius: 30px;
+}
+.titleCard{
+    display: flex;
+    flex-direction: column;
+    font-family: 'cairo';
+}
+.flag img{
+    border-radius: 7px;
+}
+.titleCountry{
+    display: flex;
+    align-items: center;
+}
+.titleCountry img{
+    margin-left: 5px;
+   height: 14px;
+   padding-top: 7px;
+}
+.titleCountry span{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.titleCard span:nth-child(2){
+    margin-bottom: 10px;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+}
+.table div span:nth-child(-n+2){
+    font-family: 'Genos';
+    font-size: 21px;
+}
+.table div span:nth-child(3){
+    text-align: center;
+    font-family: 'cairo';
+    background-color: #FFFFFF;
+    color:#FF0000;
+    width: 101.9px;
+    height: 19.62px;
+    font-size: 12px;
+    border-radius: 7px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-bottom: 4px;
+}
+.qualifyingAndRace{
+    margin-top: 15px;
+}
+.qualifyingAndRace div span:nth-child(3){
+    background-color: #3D3A3A;
+    color: #FFFFFF;
+}
+.race{
+    background-color: #FF0000;
+}
+.ultimoParrafo{
+    text-align: center;
+    font-family: 'Genos';
+    font-size: 15px;
+    margin-top: 15px;
 }
